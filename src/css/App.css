@@ -1,0 +1,16 @@
+.nav{
+     background-color: rgb(38, 158, 38);
+    color: #fff;
+}
+.link{background-color: rgb(140, 140, 232); color: #fff; margin: 20px; padding: 8px; text-decoration: none; text-align: center; justify-content: center; max-width: 100%; margin-top: 100px;}
+.link:hover{background-color: #0a5996;}
+.name{font-size: 3rem;}
+.name span{color: red; font-size: 3.2rem;}
+.hname{display: flex; text-align: center; align-items: center; justify-content: center; margin-bottom: 50px; padding-top: 5px;}
+.mark{color: hsla(0, 0%, 100%, 0.308);}
+.describe img{max-width: 100%;}
+.describe {flex-basis: 50%;}
+.youtubed{display: flex; flex-wrap: nowrap;}
+.video{flex-basis: 50%; text-align: center; justify-content: center; margin-top: 40px; }
+.btnf{font-size: 3rem; margin-left: 23px;}
+

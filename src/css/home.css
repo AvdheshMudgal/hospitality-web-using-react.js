@@ -1,0 +1,128 @@
+.doctors{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.details{
+    background-color: #fff;
+    color: black;
+   padding: 10px;
+   margin-top: 15px;
+   text-align: center;
+
+}
+.details:hover{
+    box-shadow: rgba(78, 77, 77, 0.25) 0px 54px 55px, rgba(85, 82, 82, 0.12) 0px -12px 30px, rgba(77, 75, 75, 0.12) 0px 4px 6px, rgba(77, 75, 75, 0.17) 0px 12px 13px, rgba(78, 75, 75, 0.09) 0px -3px 5px;
+    scale: 105%;
+    transition: all ease 1s;
+}
+.footer{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: black;
+color: #fff;
+margin-top: 30px;
+
+}
+.fcol{
+    padding: 10px;
+
+}
+.center{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; margin-bottom: 10px; margin-top: 5px;
+}
+.center span{color: aqua;}
+.depa button{margin-top: 8px;}
+.footer-about{
+    margin-top: 50px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: black;
+color: #fff;
+}
+.maind img{
+  max-width: 100%;
+}
+.department{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: space-between;
+
+}
+.department img{
+    width: 280px;
+}
+.depa{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    display: inline-block; 
+    
+    margin-bottom: 30px; margin-top: 20px;
+    text-align: center;
+   
+}
+.btnf{display: none;}
+input{background-color: #ffffffa4; color: black; text-align: center; justify-content: center; max-width: 100%;
+font-size: 32px; ;
+}
+
+@media screen and (max-width:460px){
+
+    .maind img{
+       max-width: 100%;
+    }
+    .link{display: inline-block; max-width: 100%;  }
+    .navbar{display: none;  }
+    .name{ font-size: 2rem;}
+
+    .navbar.show {
+        display: block;
+        width: 150px;
+        
+       
+    }
+    .btnf{display: block; margin-left: 10px;}
+
+    .nav .link{background-color: rgb(140, 140, 232); color: #fff; margin: 20px; padding: 8px; text-decoration: none; text-align: center; justify-content: center; max-width: 100%; }
+    .nav .name{font-size: 2rem;}
+    .youtube .video{display: block;}
+    .video .ytv{max-width: 100%;}
+    .depa{margin-left: 30px;}
+    .details{margin-left: 30px;}
+  
+    ul li{font-size: 12px;}
+   .wts .icons{display: none;
+    font-size: 10px;}
+    .describe{font-size: 10px;}
+.ser p{font-size: 10px;}
+*{font-size: 12px;}
+span{font-size: 2rem;}
+.plogm h2{margin-top: -28%;}
+.inputv{width: 350px;}
+.contact-form-container{max-width: 285px;}
+.contact-form-container input{max-width: 70%;}
+.contact-form-container button{width: 290px;}
+input[name="ctext"], input[name="cemail"], textarea{max-width: 70% ;}
+
+   
+}
+.wts{position: absolute; top: 50%; left: 20%; }
+.icons{ color: black; margin-bottom: 5px;font-size: 30px;}
+.icons:hover{cursor: pointer; scale: 110%; }
+.em{font-size: 2.2rem; margin-left: 60px;margin-bottom: 40px;}
+.dname{display: flex; text-align: center; align-items: center; justify-content: center; margin-top: 30px; margin-bottom: 30px;}
+.dname h3{font-size: 3rem;}
+.youtube{display: flex; flex-wrap: nowrap; flex-basis: 50%;}
+.describe{display: flex; text-align: center; align-items: center; justify-content: center; margin-left: 50px; flex-basis: 50%;}
+.ytn{text-align: center; display: block; margin-top: 40px; margin-bottom: 20px; font-size: 3rem;}
+.detailss{
+    max-width: 100%;
+    padding: 10px;
+}
+.detailss h2{font-size: 2rem; display: block; text-align: center; margin-bottom: 30px;}
+.abot{font-size: 3rem; display: block; text-align: center; margin-bottom: 40px;}
